@@ -5,7 +5,7 @@ const OurService = () => {
     return (
         <div className='our-service'>
             <div className='left-img'>
-                <img src="./src/assets/sofa.png" alt="" />
+                <img src="./src/assets/blacksofa.png" alt="" />
             </div>
             <div className='right-text'>
                 <div>
