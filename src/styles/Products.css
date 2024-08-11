@@ -39,6 +39,7 @@
 .products-cards div {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .products-cards img {

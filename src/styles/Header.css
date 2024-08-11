@@ -39,3 +39,42 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.auth-modal {
+    width: 240px;
+    padding: 10px  0  20px 20px;
+    position: absolute;
+    margin-left: -180px;
+    background: rgb(42, 37, 75);
+}
+.close-btn {
+    height: 36px;
+    width: 80px;
+    border: none;
+    background: white;
+    color: rgb(42, 37, 75);
+    font-size: 16px;
+    font-weight: 400;
+}
+.auth-modal-content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.language-menu {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.language-menu button {
+    width: 30px;
+    height: 20px;
+    font-size: 10px;
+    background: #2a254b;
+    border: none;
+    color: rgb(255, 255, 255);
+}

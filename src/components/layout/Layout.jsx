@@ -2,7 +2,6 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home'
 import About from '../../pages/About'
-import Basket from '../../pages/Basket'
 import Products from '../../pages/Products'
 import ProductDetail from '../../pages/ProductDetail'
 import Chairs from '../../pages/Chairs'
@@ -21,7 +20,6 @@ const Layout = () => {
             <Route path='/' element = {<Home/>} />
             <Route path='/about' element = {<About/>} />
             <Route path='cart' element = {<Cart/>}/>
-            <Route path='/basket' element = {<Basket/>} />
             <Route path='/products' element = {<Products/>} />
             <Route path='/product/:id' element = {<ProductDetail/>} />
             <Route path='/ceramics' element = {<Ceramics/>} />
